@@ -1,0 +1,87 @@
+
+/* GLOBAL STYLES */
+
+# { padding: 0; margin: 0; }
+
+html, body { }
+
+p, li, h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', 'Roboto', Arial; }
+
+
+/* GENERAL APPLIED STYLES */
+
+.content { max-width: 1098px; margin: auto; }
+
+/* HEADER STYLES */
+
+header { background-color: #f9f9f9; min-height: 200px; width: 100%; }
+
+#call { max-width: 680px; margin: auto; padding-top: 40px; }
+
+#logo .rightfier { float: right; }
+
+#logo { text-align: center; }
+
+#logo h1 { font-weight: 600; line-height: 0.5em; color: #ff0045; }
+
+#logo h5 { line-height: 1em }
+
+#logo h5 i { font-size: 0.9em; }
+
+/* #place .placeholder { margin-top: 15px; max-width: 84px; }
+
+#place .placeholder p { font-size: 0.7em; line-height: 0.6em; text-align: right; }
+
+#place .temperature { width: 100%; }
+
+#place .temperature p { font-size: 1.5em; line-height: 1.3em; float: right; display: inline-block; }
+
+#place .temperature i { font-size: 1.7em; margin-top: -8px; text-align: left; display: inline-block; }*/
+
+#survival { margin: auto; text-align: center; padding: 30px 0 40px; }
+
+#survival button { background-color: transparent; border: 1px solid #ff0045; border-radius: 20px; color: #ff0045; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
+
+#survival button i { font-size: 0.9em; margin-right: 6px; margin-top: -2px; }
+
+#survival .inverse { background-color: #ff0045; border: 1px solid #ff0045; border-radius: 20px; color: #f9f9f9; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
+
+#survival .inverse sup { color: white; font-weight: 600; }
+
+/* FILTER STYLES */
+
+#filter { background-color: #f3f3f3; max-height: 70px; width: 100%; }
+
+.filter-division{ margin-right: 14px;}
+
+.search { display: inline-block; padding: 15px 0; }
+
+.search input { width: 320px; font-size: 0.9em; border: 1px solid #ddd; border-radius: 3px; padding: 6px 12px; }
+
+.categories { display: inline-block; float: right; padding: 15px 0; }
+
+.categories ul { list-style: none; }
+
+.categories ul li { display: inline-block; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 4px; font-size: 0.9em; padding: 6px 10px; margin: 0 3px; }
+
+.categories ul li i { margin-right: 6px; }
+
+/* TOSTUDY STYLES */
+
+#tostudy { height: 600px; }
+
+.catalog-grid { display: block; clear: both; margin: auto; position: relative; top: 20px; width: 100%; }
+
+.item { display: inline-block; width: 25%; height: 13.6em; padding: 7px; }
+
+.item-container { position: relative; height: 100%; background-color: #ddd; border-radius: 5px; width: 100%; cursor: pointer; overflow: hidden; }
+
+.item-dim-background { width: 110%; height: 110%; position: absolute; top: -5%; left: -5%; background-color: #000; opacity: 0.6; z-index: 2; }
+
+.item-background { width: 110%; height: 110%; position: absolute; top: -5%; left: -5%; background-position: center center; background-size: cover; z-index: 1; }
+
+.item-description { width: 100%; transform: translateY(-50%); position: absolute; top: 50%; text-align: center; color: white; padding: 0 1.2em; z-index: 3; }
+
+.item-description h6 { font-weight: 800; font-size: 1.3em; }
+
+.item-description p { margin-top: -7px; font-size: 0.8em; }
