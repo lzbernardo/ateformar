@@ -14,7 +14,7 @@ p, li, h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', 'Roboto', Arial; }
 
 /* HEADER STYLES */
 
-header { background-color: #f9f9f9; min-height: 200px; width: 100%; }
+header { background-color: #f9f9f9; background: url("../images/bgu.jpg") no-repeat center; background-size: cover; min-height: 200px; width: 100%; }
 
 #call { max-width: 680px; margin: auto; padding-top: 40px; }
 
@@ -22,9 +22,9 @@ header { background-color: #f9f9f9; min-height: 200px; width: 100%; }
 
 #logo { text-align: center; }
 
-#logo h1 { font-weight: 600; line-height: 0.5em; color: #ff0045; }
+#logo h1 { font-size: 42px; font-weight: 900; line-height: 0.6em; color: white; }
 
-#logo h5 { line-height: 1em }
+#logo h5 { color: white; line-height: 1em; }
 
 #logo h5 i { font-size: 0.9em; }
 
@@ -40,11 +40,11 @@ header { background-color: #f9f9f9; min-height: 200px; width: 100%; }
 
 #survival { margin: auto; text-align: center; padding: 30px 0 40px; }
 
-#survival button { background-color: transparent; border: 1px solid #ff0045; border-radius: 20px; color: #ff0045; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
+#survival button { box-sizing: border-box; background-color: rgba(0,0,0,0.3); border: 1px solid rgba(235,235,235,0.7); border-radius: 20px; color: white; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
 
 #survival button i { font-size: 0.9em; margin-right: 6px; margin-top: -2px; }
 
-#survival .inverse { background-color: #ff0045; border: 1px solid #ff0045; border-radius: 20px; color: #f9f9f9; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
+#survival .inverse { box-sizing: border-box; background-color: #ff0045; border: 1px solid #ff0045; border-radius: 20px; color: #f9f9f9; font-weight: 700; font-size: 12px; padding: 9px 24px; margin: 0 7px; text-transform: uppercase; }
 
 #survival .inverse sup { color: white; font-weight: 600; }
 
@@ -62,9 +62,11 @@ header { background-color: #f9f9f9; min-height: 200px; width: 100%; }
 
 .categories ul { list-style: none; }
 
-.categories ul li { display: inline-block; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 4px; font-size: 0.9em; padding: 6px 10px; margin: 0 3px; }
+.categories ul li { box-sizing: border-box; display: inline-block; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 4px; font-size: 0.9em; padding: 6px 10px; margin: 0 3px; }
 
 .categories ul li i { margin-right: 6px; }
+
+.categories ul .inverse { box-sizing: border-box; border: 1px solid #ff0045; display: inline-block; background-color: #ff0045; border-radius: 4px; color: white; font-size: 0.9em; padding: 6px 10px; margin: 0 3px; }
 
 /* TOSTUDY STYLES */
 
